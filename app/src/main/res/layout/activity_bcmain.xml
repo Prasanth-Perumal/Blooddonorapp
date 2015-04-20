@@ -3,9 +3,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:background="@drawable/redgradient">
-    <LinearLayout
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"><include layout="@layout/header"></include></LinearLayout>
+
 
     <ImageView
         android:layout_width="100dp"
