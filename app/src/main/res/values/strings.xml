@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Blooddonorapp</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_search">Search</string>
+    <string name="choose">choose...</string>
+    <string name="title_activity_bc_map_searchresult">bcMapSearchresult</string>
+    <string name="server_key">AIzaSyCVRktCvkLUKhzR5rinh_2RmRo7z3io4ZE</string>
+    <string name="url">https://maps.googleapis.com/maps/api/geocode/json?address=</string>
+    <string name="dirurl">https://maps.googleapis.com/maps/api/directions/json?origin=</string>
+    <string name="title_activity_donorroute">donorroute</string>
+    <string name="title_activity_register">Register</string>
+    <string name="user_agreement">1. Acceptance of Agreement
+You agree to the terms and conditions, without modification, outlined in this Agreement with respect to our site (the "Site"). This Agreement may be amended by us from time to time without specific notice to you, by updating this posting. This Agreement constitutes the entire and only agreement between us and you, and supersedes all prior or contemporaneous agreements, representations, warranties and understandings with respect to the Site, the content, products or services provided by or through the Site, and the subject matter of this Agreement.
+
+2. Use of the Site
+The information provided through our Site is for informational and educational purposes only. All information is provided on an "as is" basis without any warranties of any kind. The material on this Web site is provided as general information only and is not intended to provide specific legal, or health related advice for any individual and should not be relied upon in that regard. For information on individual health questions contact your physician.
+
+Canadian Blood Servle.</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+
+</resources>
