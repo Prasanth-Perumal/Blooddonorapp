@@ -132,4 +132,9 @@ public void searchdonors(View v)
         Intent in=new Intent(this,Register.class);
         startActivity(in);
     }
+    public void paytmcheckout(View v)
+    {
+        Intent in=new Intent(this,PaytmActivity.class);
+        startActivity(in);
+    }
 }

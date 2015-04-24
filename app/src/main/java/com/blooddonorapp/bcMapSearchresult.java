@@ -175,7 +175,11 @@ map.setOnMarkerClickListener(new GoogleMap.OnMarkerClickListener() {
 
             }
             map.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(mylocation.getLatitude(), mylocation.getLongitude())));
-            map.animateCamera(CameraUpdateFactory.zoomTo(13), 2000, null);
+          //
+          //
+          //
+          // map.animateCamera(CameraUpdateFactory.zoomTo(8), 2000, null);
+           map.animateCamera(CameraUpdateFactory.newLatLngZoom(new LatLng(mylocation.getLatitude(), mylocation.getLongitude()),(float) 14.6));
 
         } else {
             Toast.makeText(this, "no locaTION", Toast.LENGTH_LONG).show();

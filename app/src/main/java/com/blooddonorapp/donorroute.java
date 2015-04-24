@@ -91,7 +91,7 @@ public class donorroute extends ActionBarActivity implements GoogleApiClient.Con
                     .position(new LatLng(mylocation.getLatitude(), mylocation.getLongitude()))
                     .title("My Location"));
             map.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(mylocation.getLatitude(), mylocation.getLongitude())));
-            map.animateCamera(CameraUpdateFactory.zoomTo(13), 2000, null);
+            map.animateCamera(CameraUpdateFactory.zoomTo(5), 2000, null);
         }
        String uri= makeURL(mylocation.getLatitude(),mylocation.getLongitude(),location[0],location[1]);
         routemap rm=new routemap(uri,donorroute.this,map);
